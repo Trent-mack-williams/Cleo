@@ -3,8 +3,8 @@ import { NavLink, Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/movies">
+    <nav className="navbar navbar-expand-lg navbar-dark nav-font">
+      <Link className="navbar-brand" to="/Home">
         Cleo
       </Link>
       <button
